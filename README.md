@@ -575,6 +575,12 @@ Run the following command in your terminal:
 npm create vite@latest hello-world -- --template vue
 ```
 
+**Explanation:**
+
+* `npm create vite@latest` → Creates a new project using the latest version of Vite.
+* `hello-world` → The name of your project folder.
+* `-- --template vue` → Specifies that you want the latest version of Vue 3 as the template.
+
 ![images](images/vjs-32.png)
 
 This will create a **Vue 3 + Vite** project inside a folder called `hello-world`.
