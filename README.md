@@ -121,7 +121,7 @@ To execute your tests, add a test script to your `package.json`:
 
 ---
 
-### Ensure `@vue/test-utils` is Installed
+#### Ensure `@vue/test-utils` is Installed
 Run the following command in your project root to install `@vue/test-utils`:
 
 If you're using **npm**:
@@ -136,7 +136,7 @@ Or if you're using **yarn**:
 yarn add --dev @vue/test-utils
 ```
 
-### Ensure Vitest is Installed
+#### Ensure Vitest is Installed
 
 If you haven't installed **Vitest**, run the following command:
 
@@ -152,7 +152,7 @@ Or if you're using **yarn**:
 yarn add --dev vitest
 ```
 
-### Restart Vite & Run Tests Again
+#### Restart Vite & Run Tests Again
 
 Finally, to run your tests, use one of the following commands:
 
