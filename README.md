@@ -119,10 +119,47 @@ To execute your tests, add a test script to your `package.json`:
 
 ![images](images/vjs-5.png)
 
-Now, run the tests using:
+---
 
-```sh
-npm run test # or yarn test
+---
+
+### 1. Ensure `@vue/test-utils` is Installed
+Run the following command in your project root to install `@vue/test-utils`:
+
+If you're using **npm**:
+
+```bash
+npm install --save-dev @vue/test-utils
+```
+
+Or if you're using **yarn**:
+
+```bash
+yarn add --dev @vue/test-utils
+```
+
+### 2. Ensure Vitest is Installed
+
+If you haven't installed **Vitest**, run the following command:
+
+If you're using **npm**:
+
+```bash
+npm install --save-dev vitest
+```
+
+Or if you're using **yarn**:
+
+```bash
+yarn add --dev vitest
+```
+
+### 3. Restart Vite & Run Tests Again
+
+Finally, to run your tests, use one of the following commands:
+
+```bash
+npm run test  # or yarn test
 ```
 
 - This command runs all test files that match `*.test.js` or `*.spec.js`.
@@ -614,7 +651,7 @@ Now, open [http://localhost:5173/](http://localhost:5173/) in your browser.
 
 #### **Modify `HelloWorld.vue`**  
 
-Open `src/components/HelloWorld.vue` and update it:
+Open the `hello-world/src/components/HelloWorld.vue` file and update it:
 
 ```vue
 <template>
@@ -630,7 +667,7 @@ defineProps({ msg: String });
 
 #### **Import `HelloWorld.vue` in `App.vue`**  
 
-Modify `src/App.vue`:
+Open the `hello-world/src/App.vue` file and update it:
 
 ```vue
 <template>
